@@ -1,0 +1,34 @@
+# topology documentation: http://containerlab.dev/lab-examples/ext-bridge/
+name: br01
+
+topology:
+  kinds:
+    nokia_srlinux:
+      type: ixrd2l
+      image: ghcr.io/nokia/srlinux
+  nodes:
+    srl1:
+      kind: nokia_srlinux
+      startup-config: config/srl1.cfg
+    srl2:
+      kind: nokia_srlinux
+      startup-config: config/srl2.cfg
+    srl3:
+      kind: nokia_srlinux
+      startup-config: config/srl3.cfg
+    srl4:
+      kind: nokia_srlinux
+      startup-config: config/srl4.cfg
+    srl5:
+      kind: nokia_srlinux
+      startup-config: config/srl5.cfg
+    # note, that the bridge br-clab must be created manually
+
+
+  links:
+    - endpoints: ["srl1:e1-1", "srl2:e1-1"]
+    - endpoints: ["srl2:e1-2", "srl3:e1-1"]
+    - endpoints: ["srl2:e1-3", "srl4:e1-1"]
+    - endpoints: ["srl3:e1-2", "srl5:e1-1"]
+    - endpoints: ["srl4:e1-2", "srl5:e1-2"]
+
