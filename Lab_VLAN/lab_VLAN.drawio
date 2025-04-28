@@ -1,0 +1,323 @@
+<mxfile compressed="false" host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram id="Network Topology" name="Network Topology">
+    <mxGraphModel dx="543" dy="356" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="R1" id="clab-VLAN-R1">
+          <mxCell style="shape=image;imageAlign=center;imageVerticalAlign=middle;labelPosition=left;align=right;verticalLabelPosition=top;spacingLeft=0;verticalAlign=bottom;spacingTop=0;spacing=0;editableCssRules=\.st[0-2]$;labelBackgroundColor=none;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjAgMTIwO2VkaXRhYmxlQ3NzUnVsZXM9Lio7IiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgeT0iMHB4IiB4PSIwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzAwMTEzNTt9JiN4YTsJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Qye2ZpbGw6I0ZGRkZGRjt9JiN4YTsJLnN0M3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDR7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0NXtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q2e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0N3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q5e2ZpbGw6I0ZGRkZGRjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDt9JiN4YTsJLnN0MTB7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O30mI3hhOwkuc3QxMXtmaWxsOiMyNjI2MjY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQuMjMzMzt9JiN4YTsJLnN0MTJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3QxM3tmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7fSYjeGE7CS5zdDE0e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0MTV7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO30mI3hhOwkuc3QxNntmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDE3e2ZpbGw6IzI2MjYyNjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0MTh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTs8L3N0eWxlPiYjeGE7PHJlY3QgaGVpZ2h0PSIxMjAiIHdpZHRoPSIxMjAiIGNsYXNzPSJzdDAiLz4mI3hhOzxnPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNzEuNywxOS43VjQ4aDI4IiBjbGFzcz0ic3QxIi8+JiN4YTsJCTxwYXRoIGQ9Ik05MS4yLDM4LjVsNy41LDcuNmMxLjMsMS4zLDEuMywzLjEsMCw0LjNMOTEuMSw1OCIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTIwLDQ3LjhoMjguNHYtMjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTM4LjgsMjguM2w3LjYtNy41YzEuMy0xLjMsMy4xLTEuMyw0LjMsMGw3LjcsNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNDgsMTAwLjNWNzJIMjAiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTI4LjUsODEuNUwyMSw3My45Yy0xLjMtMS4zLTEuMy0zLjEsMC00LjNsNy42LTcuNyIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTEwMCw3MS45SDcxLjZ2MjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTgxLjIsOTEuNGwtNy42LDcuNWMtMS4zLDEuMy0zLjEsMS4zLTQuMywwbC03LjctNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7PC9nPiYjeGE7PC9zdmc+;" parent="1" vertex="1">
+            <mxGeometry x="250" y="100" width="75" height="75" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R2" id="clab-VLAN-R2">
+          <mxCell style="shape=image;imageAlign=center;imageVerticalAlign=middle;labelPosition=left;align=right;verticalLabelPosition=top;spacingLeft=0;verticalAlign=bottom;spacingTop=0;spacing=0;editableCssRules=\.st[0-2]$;labelBackgroundColor=none;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjAgMTIwO2VkaXRhYmxlQ3NzUnVsZXM9Lio7IiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgeT0iMHB4IiB4PSIwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzAwMTEzNTt9JiN4YTsJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Qye2ZpbGw6I0ZGRkZGRjt9JiN4YTsJLnN0M3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDR7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0NXtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q2e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0N3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q5e2ZpbGw6I0ZGRkZGRjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDt9JiN4YTsJLnN0MTB7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O30mI3hhOwkuc3QxMXtmaWxsOiMyNjI2MjY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQuMjMzMzt9JiN4YTsJLnN0MTJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3QxM3tmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7fSYjeGE7CS5zdDE0e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0MTV7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO30mI3hhOwkuc3QxNntmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDE3e2ZpbGw6IzI2MjYyNjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0MTh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTs8L3N0eWxlPiYjeGE7PHJlY3QgaGVpZ2h0PSIxMjAiIHdpZHRoPSIxMjAiIGNsYXNzPSJzdDAiLz4mI3hhOzxnPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNzEuNywxOS43VjQ4aDI4IiBjbGFzcz0ic3QxIi8+JiN4YTsJCTxwYXRoIGQ9Ik05MS4yLDM4LjVsNy41LDcuNmMxLjMsMS4zLDEuMywzLjEsMCw0LjNMOTEuMSw1OCIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTIwLDQ3LjhoMjguNHYtMjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTM4LjgsMjguM2w3LjYtNy41YzEuMy0xLjMsMy4xLTEuMyw0LjMsMGw3LjcsNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNDgsMTAwLjNWNzJIMjAiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTI4LjUsODEuNUwyMSw3My45Yy0xLjMtMS4zLTEuMy0zLjEsMC00LjNsNy42LTcuNyIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTEwMCw3MS45SDcxLjZ2MjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTgxLjIsOTEuNGwtNy42LDcuNWMtMS4zLDEuMy0zLjEsMS4zLTQuMywwbC03LjctNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7PC9nPiYjeGE7PC9zdmc+;" parent="1" vertex="1">
+            <mxGeometry x="100" y="100" width="75" height="75" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R3" id="clab-VLAN-R3">
+          <mxCell style="shape=image;imageAlign=center;imageVerticalAlign=middle;labelPosition=left;align=right;verticalLabelPosition=top;spacingLeft=0;verticalAlign=bottom;spacingTop=0;spacing=0;editableCssRules=\.st[0-2]$;labelBackgroundColor=none;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjAgMTIwO2VkaXRhYmxlQ3NzUnVsZXM9Lio7IiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgeT0iMHB4IiB4PSIwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzAwMTEzNTt9JiN4YTsJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Qye2ZpbGw6I0ZGRkZGRjt9JiN4YTsJLnN0M3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDR7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0NXtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q2e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0N3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q5e2ZpbGw6I0ZGRkZGRjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDt9JiN4YTsJLnN0MTB7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O30mI3hhOwkuc3QxMXtmaWxsOiMyNjI2MjY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQuMjMzMzt9JiN4YTsJLnN0MTJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3QxM3tmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7fSYjeGE7CS5zdDE0e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0MTV7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO30mI3hhOwkuc3QxNntmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDE3e2ZpbGw6IzI2MjYyNjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0MTh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTs8L3N0eWxlPiYjeGE7PHJlY3QgaGVpZ2h0PSIxMjAiIHdpZHRoPSIxMjAiIGNsYXNzPSJzdDAiLz4mI3hhOzxnPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNzEuNywxOS43VjQ4aDI4IiBjbGFzcz0ic3QxIi8+JiN4YTsJCTxwYXRoIGQ9Ik05MS4yLDM4LjVsNy41LDcuNmMxLjMsMS4zLDEuMywzLjEsMCw0LjNMOTEuMSw1OCIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTIwLDQ3LjhoMjguNHYtMjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTM4LjgsMjguM2w3LjYtNy41YzEuMy0xLjMsMy4xLTEuMyw0LjMsMGw3LjcsNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNDgsMTAwLjNWNzJIMjAiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTI4LjUsODEuNUwyMSw3My45Yy0xLjMtMS4zLTEuMy0zLjEsMC00LjNsNy42LTcuNyIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTEwMCw3MS45SDcxLjZ2MjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTgxLjIsOTEuNGwtNy42LDcuNWMtMS4zLDEuMy0zLjEsMS4zLTQuMywwbC03LjctNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7PC9nPiYjeGE7PC9zdmc+;" parent="1" vertex="1">
+            <mxGeometry x="400" y="100" width="75" height="75" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SW" id="clab-VLAN-SW">
+          <mxCell style="shape=image;imageAlign=center;imageVerticalAlign=middle;labelPosition=left;align=right;verticalLabelPosition=top;spacingLeft=0;verticalAlign=bottom;spacingTop=0;spacing=0;editableCssRules=\.st[0-2]$;labelBackgroundColor=none;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjAgMTIwO2VkaXRhYmxlQ3NzUnVsZXM9Lio7IiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgeT0iMHB4IiB4PSIwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzAwMTEzNTt9JiN4YTsJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Qye2ZpbGw6I0ZGRkZGRjt9JiN4YTsJLnN0M3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDR7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0NXtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q2e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0N3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q5e2ZpbGw6I0ZGRkZGRjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDt9JiN4YTsJLnN0MTB7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O30mI3hhOwkuc3QxMXtmaWxsOiMyNjI2MjY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQuMjMzMzt9JiN4YTsJLnN0MTJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3QxM3tmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7fSYjeGE7CS5zdDE0e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0MTV7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO30mI3hhOwkuc3QxNntmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDE3e2ZpbGw6IzI2MjYyNjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0MTh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTs8L3N0eWxlPiYjeGE7PHJlY3QgaGVpZ2h0PSIxMjAiIHdpZHRoPSIxMjAiIGNsYXNzPSJzdDAiLz4mI3hhOzxnPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNzEuNywxOS43VjQ4aDI4IiBjbGFzcz0ic3QxIi8+JiN4YTsJCTxwYXRoIGQ9Ik05MS4yLDM4LjVsNy41LDcuNmMxLjMsMS4zLDEuMywzLjEsMCw0LjNMOTEuMSw1OCIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTIwLDQ3LjhoMjguNHYtMjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTM4LjgsMjguM2w3LjYtNy41YzEuMy0xLjMsMy4xLTEuMyw0LjMsMGw3LjcsNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNDgsMTAwLjNWNzJIMjAiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTI4LjUsODEuNUwyMSw3My45Yy0xLjMtMS4zLTEuMy0zLjEsMC00LjNsNy42LTcuNyIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTEwMCw3MS45SDcxLjZ2MjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTgxLjIsOTEuNGwtNy42LDcuNWMtMS4zLDEuMy0zLjEsMS4zLTQuMywwbC03LjctNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7PC9nPiYjeGE7PC9zdmc+;" parent="1" vertex="1">
+            <mxGeometry x="205" y="350" width="75" height="75" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R4" id="clab-VLAN-R4">
+          <mxCell style="shape=image;imageAlign=center;imageVerticalAlign=middle;labelPosition=left;align=right;verticalLabelPosition=top;spacingLeft=0;verticalAlign=bottom;spacingTop=0;spacing=0;editableCssRules=\.st[0-2]$;labelBackgroundColor=none;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjAgMTIwO2VkaXRhYmxlQ3NzUnVsZXM9Lio7IiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgeT0iMHB4IiB4PSIwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzAwMTEzNTt9JiN4YTsJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Qye2ZpbGw6I0ZGRkZGRjt9JiN4YTsJLnN0M3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDR7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0NXtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q2e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0N3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q5e2ZpbGw6I0ZGRkZGRjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDt9JiN4YTsJLnN0MTB7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O30mI3hhOwkuc3QxMXtmaWxsOiMyNjI2MjY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQuMjMzMzt9JiN4YTsJLnN0MTJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3QxM3tmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7fSYjeGE7CS5zdDE0e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0MTV7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO30mI3hhOwkuc3QxNntmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDE3e2ZpbGw6IzI2MjYyNjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0MTh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTs8L3N0eWxlPiYjeGE7PHJlY3QgaGVpZ2h0PSIxMjAiIHdpZHRoPSIxMjAiIGNsYXNzPSJzdDAiLz4mI3hhOzxnPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNzEuNywxOS43VjQ4aDI4IiBjbGFzcz0ic3QxIi8+JiN4YTsJCTxwYXRoIGQ9Ik05MS4yLDM4LjVsNy41LDcuNmMxLjMsMS4zLDEuMywzLjEsMCw0LjNMOTEuMSw1OCIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTIwLDQ3LjhoMjguNHYtMjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTM4LjgsMjguM2w3LjYtNy41YzEuMy0xLjMsMy4xLTEuMyw0LjMsMGw3LjcsNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNDgsMTAwLjNWNzJIMjAiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTI4LjUsODEuNUwyMSw3My45Yy0xLjMtMS4zLTEuMy0zLjEsMC00LjNsNy42LTcuNyIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTEwMCw3MS45SDcxLjZ2MjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTgxLjIsOTEuNGwtNy42LDcuNWMtMS4zLDEuMy0zLjEsMS4zLTQuMywwbC03LjctNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7PC9nPiYjeGE7PC9zdmc+;" parent="1" vertex="1">
+            <mxGeometry x="550" y="100" width="75" height="75" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R5" id="clab-VLAN-R5">
+          <mxCell style="shape=image;imageAlign=center;imageVerticalAlign=middle;labelPosition=left;align=right;verticalLabelPosition=top;spacingLeft=0;verticalAlign=bottom;spacingTop=0;spacing=0;editableCssRules=\.st[0-2]$;labelBackgroundColor=none;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjAgMTIwO2VkaXRhYmxlQ3NzUnVsZXM9Lio7IiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgeT0iMHB4IiB4PSIwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzAwMTEzNTt9JiN4YTsJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Qye2ZpbGw6I0ZGRkZGRjt9JiN4YTsJLnN0M3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDR7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0NXtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q2e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0N3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q5e2ZpbGw6I0ZGRkZGRjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDt9JiN4YTsJLnN0MTB7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O30mI3hhOwkuc3QxMXtmaWxsOiMyNjI2MjY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQuMjMzMzt9JiN4YTsJLnN0MTJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3QxM3tmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7fSYjeGE7CS5zdDE0e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0MTV7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO30mI3hhOwkuc3QxNntmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDE3e2ZpbGw6IzI2MjYyNjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0MTh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTs8L3N0eWxlPiYjeGE7PHJlY3QgaGVpZ2h0PSIxMjAiIHdpZHRoPSIxMjAiIGNsYXNzPSJzdDAiLz4mI3hhOzxnPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNzEuNywxOS43VjQ4aDI4IiBjbGFzcz0ic3QxIi8+JiN4YTsJCTxwYXRoIGQ9Ik05MS4yLDM4LjVsNy41LDcuNmMxLjMsMS4zLDEuMywzLjEsMCw0LjNMOTEuMSw1OCIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTIwLDQ3LjhoMjguNHYtMjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTM4LjgsMjguM2w3LjYtNy41YzEuMy0xLjMsMy4xLTEuMyw0LjMsMGw3LjcsNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNDgsMTAwLjNWNzJIMjAiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTI4LjUsODEuNUwyMSw3My45Yy0xLjMtMS4zLTEuMy0zLjEsMC00LjNsNy42LTcuNyIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTEwMCw3MS45SDcxLjZ2MjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTgxLjIsOTEuNGwtNy42LDcuNWMtMS4zLDEuMy0zLjEsMS4zLTQuMywwbC03LjctNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7PC9nPiYjeGE7PC9zdmc+;" parent="1" vertex="1">
+            <mxGeometry x="700" y="100" width="75" height="75" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SW2" id="clab-VLAN-SW2">
+          <mxCell style="shape=image;imageAlign=center;imageVerticalAlign=middle;labelPosition=left;align=right;verticalLabelPosition=top;spacingLeft=0;verticalAlign=bottom;spacingTop=0;spacing=0;editableCssRules=\.st[0-2]$;labelBackgroundColor=none;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjAgMTIwO2VkaXRhYmxlQ3NzUnVsZXM9Lio7IiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgeT0iMHB4IiB4PSIwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzAwMTEzNTt9JiN4YTsJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Qye2ZpbGw6I0ZGRkZGRjt9JiN4YTsJLnN0M3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDR7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0NXtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q2e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0N3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q5e2ZpbGw6I0ZGRkZGRjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDt9JiN4YTsJLnN0MTB7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O30mI3hhOwkuc3QxMXtmaWxsOiMyNjI2MjY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQuMjMzMzt9JiN4YTsJLnN0MTJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3QxM3tmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7fSYjeGE7CS5zdDE0e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0MTV7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO30mI3hhOwkuc3QxNntmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDE3e2ZpbGw6IzI2MjYyNjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0MTh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTs8L3N0eWxlPiYjeGE7PHJlY3QgaGVpZ2h0PSIxMjAiIHdpZHRoPSIxMjAiIGNsYXNzPSJzdDAiLz4mI3hhOzxnPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNzEuNywxOS43VjQ4aDI4IiBjbGFzcz0ic3QxIi8+JiN4YTsJCTxwYXRoIGQ9Ik05MS4yLDM4LjVsNy41LDcuNmMxLjMsMS4zLDEuMywzLjEsMCw0LjNMOTEuMSw1OCIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTIwLDQ3LjhoMjguNHYtMjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTM4LjgsMjguM2w3LjYtNy41YzEuMy0xLjMsMy4xLTEuMyw0LjMsMGw3LjcsNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNDgsMTAwLjNWNzJIMjAiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTI4LjUsODEuNUwyMSw3My45Yy0xLjMtMS4zLTEuMy0zLjEsMC00LjNsNy42LTcuNyIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTEwMCw3MS45SDcxLjZ2MjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTgxLjIsOTEuNGwtNy42LDcuNWMtMS4zLDEuMy0zLjEsMS4zLTQuMywwbC03LjctNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7PC9nPiYjeGE7PC9zdmc+;" parent="1" vertex="1">
+            <mxGeometry x="644" y="358" width="75" height="75" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SW3" id="clab-VLAN-SW3">
+          <mxCell style="shape=image;imageAlign=center;imageVerticalAlign=middle;labelPosition=left;align=right;verticalLabelPosition=top;spacingLeft=0;verticalAlign=bottom;spacingTop=0;spacing=0;editableCssRules=\.st[0-2]$;labelBackgroundColor=none;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjAgMTIwO2VkaXRhYmxlQ3NzUnVsZXM9Lio7IiB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgeT0iMHB4IiB4PSIwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiPiYjeGE7PHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzAwMTEzNTt9JiN4YTsJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Qye2ZpbGw6I0ZGRkZGRjt9JiN4YTsJLnN0M3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDR7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0NXtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q2e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0N3tmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3Q5e2ZpbGw6I0ZGRkZGRjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDt9JiN4YTsJLnN0MTB7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O30mI3hhOwkuc3QxMXtmaWxsOiMyNjI2MjY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQuMjMzMzt9JiN4YTsJLnN0MTJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1taXRlcmxpbWl0OjEwO30mI3hhOwkuc3QxM3tmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjQ7fSYjeGE7CS5zdDE0e2ZpbGw6bm9uZTtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NC4yMzMzO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTsJLnN0MTV7ZmlsbDpub25lO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO30mI3hhOwkuc3QxNntmaWxsOiNGRkZGRkY7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fSYjeGE7CS5zdDE3e2ZpbGw6IzI2MjYyNjtzdHJva2U6I0ZGRkZGRjtzdHJva2Utd2lkdGg6NDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9JiN4YTsJLnN0MTh7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDt9JiN4YTs8L3N0eWxlPiYjeGE7PHJlY3QgaGVpZ2h0PSIxMjAiIHdpZHRoPSIxMjAiIGNsYXNzPSJzdDAiLz4mI3hhOzxnPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNzEuNywxOS43VjQ4aDI4IiBjbGFzcz0ic3QxIi8+JiN4YTsJCTxwYXRoIGQ9Ik05MS4yLDM4LjVsNy41LDcuNmMxLjMsMS4zLDEuMywzLjEsMCw0LjNMOTEuMSw1OCIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTIwLDQ3LjhoMjguNHYtMjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTM4LjgsMjguM2w3LjYtNy41YzEuMy0xLjMsMy4xLTEuMyw0LjMsMGw3LjcsNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7CTxnPiYjeGE7CQk8cGF0aCBkPSJNNDgsMTAwLjNWNzJIMjAiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTI4LjUsODEuNUwyMSw3My45Yy0xLjMtMS4zLTEuMy0zLjEsMC00LjNsNy42LTcuNyIgY2xhc3M9InN0MSIvPiYjeGE7CTwvZz4mI3hhOwk8Zz4mI3hhOwkJPHBhdGggZD0iTTEwMCw3MS45SDcxLjZ2MjgiIGNsYXNzPSJzdDEiLz4mI3hhOwkJPHBhdGggZD0iTTgxLjIsOTEuNGwtNy42LDcuNWMtMS4zLDEuMy0zLjEsMS4zLTQuMywwbC03LjctNy42IiBjbGFzcz0ic3QxIi8+JiN4YTsJPC9nPiYjeGE7PC9nPiYjeGE7PC9zdmc+;" parent="1" vertex="1">
+            <mxGeometry x="399" y="641" width="76" height="76" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" source="clab-VLAN-R1" target="clab-VLAN-SW" id="link_id:link:clab-VLAN-R1:Ethernet0/1:clab-VLAN-SW:e0/1">
+          <mxCell style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="label:clab-VLAN-SW:e0/1" target="clab-VLAN-SW" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="e0/1" id="label:clab-VLAN-R1:Ethernet0/1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="238" y="176" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" source="clab-VLAN-R2" target="clab-VLAN-SW" id="link_id:link:clab-VLAN-R2:Ethernet0/1:clab-VLAN-SW:e0/2">
+          <mxCell style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="label:clab-VLAN-SW:e0/2" target="clab-VLAN-SW" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="e0/1" id="label:clab-VLAN-R2:Ethernet0/1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="145.77623097240513" y="178.12276932106894" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" source="clab-VLAN-R3" target="clab-VLAN-SW" id="link_id:link:clab-VLAN-R3:Ethernet0/1:clab-VLAN-SW:e0/3">
+          <mxCell style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="label:clab-VLAN-SW:e0/3" target="clab-VLAN-SW" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="e0/1" id="label:clab-VLAN-R3:Ethernet0/1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="415.5" y="186" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" source="clab-VLAN-SW" target="clab-VLAN-SW3" id="link_id:link:clab-VLAN-SW:Ethernet1/1:clab-VLAN-SW3:e0/1">
+          <mxCell style="endArrow=none;jumpStyle=gap;entryY=0.181;exitY=1;entryX=-0.016;exitX=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="label:clab-VLAN-SW3:e0/1" target="clab-VLAN-SW3" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" source="clab-VLAN-R4" target="clab-VLAN-SW2" id="link_id:link:clab-VLAN-R4:Ethernet0/1:clab-VLAN-SW2:e0/1">
+          <mxCell style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="label:clab-VLAN-SW2:e0/1" target="clab-VLAN-SW2" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="e0/1" id="label:clab-VLAN-R4:Ethernet0/1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="550" y="178.12" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" source="clab-VLAN-R5" target="clab-VLAN-SW2" id="link_id:link:clab-VLAN-R5:Ethernet0/1:clab-VLAN-SW2:e0/2">
+          <mxCell style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="label:clab-VLAN-SW2:e0/2" target="clab-VLAN-SW2" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="e0/1" id="label:clab-VLAN-R5:Ethernet0/1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="709.2237690275948" y="178.12276932106894" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" source="clab-VLAN-SW2" target="clab-VLAN-SW3" id="link_id:link:clab-VLAN-SW2:Ethernet0/3:clab-VLAN-SW3:e0/2">
+          <mxCell style="endArrow=none;jumpStyle=gap;entryY=0.186;exitY=1;entryX=1;exitX=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="label:clab-VLAN-SW3:e0/2" target="clab-VLAN-SW3" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-1" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="clab-VLAN-R2" target="label:clab-VLAN-SW:e0/2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138" y="175" as="sourcePoint" />
+            <mxPoint x="366" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="e0/2" id="label:clab-VLAN-SW:e0/2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="122.0037690275949" y="261.877230678931" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-2" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="clab-VLAN-R1" target="label:clab-VLAN-SW:e0/1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="288" y="175" as="sourcePoint" />
+            <mxPoint x="366" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="e0/1" id="label:clab-VLAN-SW:e0/1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="260" y="251.88" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-3" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="clab-VLAN-R3" target="label:clab-VLAN-SW:e0/3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="438" y="175" as="sourcePoint" />
+            <mxPoint x="366" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="e0/3" id="label:clab-VLAN-SW:e0/3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="391" y="254" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-4" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="clab-VLAN-R4" target="label:clab-VLAN-SW2:e0/1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="588" y="175" as="sourcePoint" />
+            <mxPoint x="513" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="e0/1" id="label:clab-VLAN-SW2:e0/1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="530" y="254" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-5" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="clab-VLAN-R5" target="label:clab-VLAN-SW2:e0/2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="738" y="175" as="sourcePoint" />
+            <mxPoint x="513" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="e0/2" id="label:clab-VLAN-SW2:e0/2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="806.9962309724052" y="251.87723067893103" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-6" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="clab-VLAN-SW" target="label:clab-VLAN-SW:Ethernet1/1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="366" y="357" as="sourcePoint" />
+            <mxPoint x="438" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="e1/1" id="label:clab-VLAN-SW:Ethernet1/1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="250" y="470" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-7" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="clab-VLAN-SW2" target="label:clab-VLAN-SW2:Ethernet0/3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="513" y="350" as="sourcePoint" />
+            <mxPoint x="438" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="e0/3" id="label:clab-VLAN-SW2:Ethernet0/3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="648" y="486" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-8" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="label:clab-VLAN-SW:Ethernet1/1" target="label:clab-VLAN-SW3:e0/1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="376" y="378" as="sourcePoint" />
+            <mxPoint x="438" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="e0/1" id="label:clab-VLAN-SW3:e0/1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="289.5" y="605" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-9" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.5;exitX=0.5;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="label:clab-VLAN-SW2:Ethernet0/3" target="label:clab-VLAN-SW3:e0/2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="502" y="368" as="sourcePoint" />
+            <mxPoint x="438" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="e0/2" id="label:clab-VLAN-SW3:e0/2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Google Sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DGoogle%2BSans;arcSize=32;spacing=0;spacingBottom=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#98A2AE;fontSize=8;horizontal=1;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="554" y="597" width="20" height="10" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-19" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1.012;entryX=0;exitX=0.321;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="clab-VLAN-SW" target="label:clab-VLAN-SW:Ethernet1/1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="253" y="435" as="sourcePoint" />
+            <mxPoint x="270" y="480" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-20" value="" style="endArrow=none;jumpStyle=gap;exitY=1;exitX=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="label:clab-VLAN-SW:Ethernet1/1" target="label:clab-VLAN-SW3:e0/1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="490" as="sourcePoint" />
+            <mxPoint x="350" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-21" value="" style="endArrow=none;jumpStyle=gap;exitY=1;exitX=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="label:clab-VLAN-SW:Ethernet1/1" target="label:clab-VLAN-SW3:e0/1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="490" as="sourcePoint" />
+            <mxPoint x="360" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-22" value="" style="endArrow=none;jumpStyle=gap;entryY=-0.122;exitY=1.012;entryX=0.867;exitX=0.647;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="clab-VLAN-SW" target="label:clab-VLAN-SW:Ethernet1/1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="253" y="435" as="sourcePoint" />
+            <mxPoint x="270" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="" source="clab-VLAN-SW" target="clab-VLAN-SW3" id="9Du-tKrMnFGDyjLVfBNz-23">
+          <mxCell style="endArrow=none;jumpStyle=gap;exitY=0.5;exitX=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=0.008;entryY=0.144;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="label:clab-VLAN-SW3:e0/1" target="clab-VLAN-SW3" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="334" y="668" as="sourcePoint" />
+              <mxPoint x="404" y="651" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" source="clab-VLAN-SW" target="clab-VLAN-SW3" id="9Du-tKrMnFGDyjLVfBNz-24">
+          <mxCell style="endArrow=none;jumpStyle=gap;exitY=0;exitX=1;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="label:clab-VLAN-SW3:e0/1" target="clab-VLAN-SW3" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="344" y="663" as="sourcePoint" />
+              <mxPoint x="414" y="661" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" source="clab-VLAN-SW2" target="clab-VLAN-SW3" id="9Du-tKrMnFGDyjLVfBNz-25">
+          <mxCell style="endArrow=none;jumpStyle=gap;entryY=0.129;exitY=0.5;entryX=1.004;exitX=0;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="label:clab-VLAN-SW3:e0/2" target="clab-VLAN-SW3" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="570" y="669" as="sourcePoint" />
+              <mxPoint x="488" y="667" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" source="clab-VLAN-SW2" target="clab-VLAN-SW3" id="9Du-tKrMnFGDyjLVfBNz-26">
+          <mxCell style="endArrow=none;jumpStyle=gap;entryY=0.04;exitY=0;entryX=1.004;exitX=0;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="label:clab-VLAN-SW3:e0/2" target="clab-VLAN-SW3" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="580" y="679" as="sourcePoint" />
+              <mxPoint x="498" y="677" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-27" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=1;exitX=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="label:clab-VLAN-SW2:Ethernet0/3" target="label:clab-VLAN-SW3:e0/2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="668" y="506" as="sourcePoint" />
+            <mxPoint x="570" y="659" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-28" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1;entryX=0.25;exitX=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="label:clab-VLAN-SW2:Ethernet0/3" target="label:clab-VLAN-SW3:e0/2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="678" y="506" as="sourcePoint" />
+            <mxPoint x="580" y="659" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-29" value="" style="endArrow=none;jumpStyle=gap;entryY=0.25;exitY=0.997;entryX=1;exitX=0.635;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="clab-VLAN-SW2" target="label:clab-VLAN-SW2:Ethernet0/3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="692" y="443" as="sourcePoint" />
+            <mxPoint x="668" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-30" value="" style="endArrow=none;jumpStyle=gap;entryY=0;exitY=1.001;entryX=0;exitX=0.396;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="clab-VLAN-SW2" target="label:clab-VLAN-SW2:Ethernet0/3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="453" as="sourcePoint" />
+            <mxPoint x="678" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-32" value="VLAN 20 192.168.20.0/29" style="rounded=0;whiteSpace=wrap;html=1;rotation=35;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="144.61" y="284.7" width="73.22" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-33" value="VLAN 20 192.168.20.0/29" style="rounded=0;whiteSpace=wrap;html=1;rotation=-35;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="723" y="277" width="73.22" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-34" value="VLAN 10 192.168.10.0/29" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="278" y="232" width="73.22" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-35" value="VLAN 30 192.168.30.0/29" style="rounded=0;whiteSpace=wrap;html=1;rotation=-30;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="278" y="284.7" width="73.22" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-36" value="VLAN 10 192.168.10.0/29" style="rounded=0;whiteSpace=wrap;html=1;rotation=35;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="570.78" y="281" width="73.22" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-37" value="192.168.10.1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="238" y="196" width="83" height="19.12" as="geometry" />
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-38" value="192.168.20.1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="106" y="210" width="83" height="19.12" as="geometry" />
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-39" value="192.168.30.1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="372" y="204" width="83" height="19.12" as="geometry" />
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-40" value="192.168.20.2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="723" y="199" width="83" height="19.12" as="geometry" />
+        </mxCell>
+        <mxCell id="9Du-tKrMnFGDyjLVfBNz-41" value="192.168.10.2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="536" y="214" width="83" height="19.12" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSgaQCwTldY2LU6gPgLV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="clab-VLAN-SW" target="clab-VLAN-SW">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

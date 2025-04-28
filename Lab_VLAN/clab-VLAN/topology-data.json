@@ -1,0 +1,370 @@
+{
+  "name": "VLAN",
+  "type": "clab",
+  "clab": {
+    "config": {
+      "prefix": "clab",
+      "mgmt": {
+        "network": "clab",
+        "bridge": "br-6a7a8f292075",
+        "ipv4-subnet": "172.20.20.0/24",
+        "ipv4-gw": "172.20.20.1",
+        "ipv6-subnet": "3fff:172:20:20::/64",
+        "ipv6-gw": "3fff:172:20:20::1",
+        "mtu": 1500,
+        "external-access": true
+      }
+    }
+  },
+  "ssh-pub-keys": [],
+  "nodes": {
+    "R1": {
+      "index": "0",
+      "shortname": "R1",
+      "longname": "clab-VLAN-R1",
+      "fqdn": "R1.VLAN.io",
+      "group": "",
+      "labdir": "/home/cristian/lab-examples/VLAN/clab-VLAN/R1",
+      "kind": "cisco_iol",
+      "image": "vrnetlab/cisco_iol:1.0.0",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.8",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::8",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-6a7a8f292075",
+        "clab-node-group": "",
+        "clab-node-kind": "cisco_iol",
+        "clab-node-lab-dir": "/home/cristian/lab-examples/VLAN/clab-VLAN/R1",
+        "clab-node-longname": "clab-VLAN-R1",
+        "clab-node-name": "R1",
+        "clab-node-type": "",
+        "clab-owner": "cristian",
+        "clab-topo-file": "/home/cristian/lab-examples/VLAN/lab.yml",
+        "containerlab": "VLAN"
+      },
+      "port-bindings": [
+      ]
+    },
+    "R2": {
+      "index": "1",
+      "shortname": "R2",
+      "longname": "clab-VLAN-R2",
+      "fqdn": "R2.VLAN.io",
+      "group": "",
+      "labdir": "/home/cristian/lab-examples/VLAN/clab-VLAN/R2",
+      "kind": "cisco_iol",
+      "image": "vrnetlab/cisco_iol:1.0.0",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.9",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::9",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-6a7a8f292075",
+        "clab-node-group": "",
+        "clab-node-kind": "cisco_iol",
+        "clab-node-lab-dir": "/home/cristian/lab-examples/VLAN/clab-VLAN/R2",
+        "clab-node-longname": "clab-VLAN-R2",
+        "clab-node-name": "R2",
+        "clab-node-type": "",
+        "clab-owner": "cristian",
+        "clab-topo-file": "/home/cristian/lab-examples/VLAN/lab.yml",
+        "containerlab": "VLAN"
+      },
+      "port-bindings": [
+      ]
+    },
+    "R3": {
+      "index": "2",
+      "shortname": "R3",
+      "longname": "clab-VLAN-R3",
+      "fqdn": "R3.VLAN.io",
+      "group": "",
+      "labdir": "/home/cristian/lab-examples/VLAN/clab-VLAN/R3",
+      "kind": "cisco_iol",
+      "image": "vrnetlab/cisco_iol:1.0.0",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.5",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::5",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-6a7a8f292075",
+        "clab-node-group": "",
+        "clab-node-kind": "cisco_iol",
+        "clab-node-lab-dir": "/home/cristian/lab-examples/VLAN/clab-VLAN/R3",
+        "clab-node-longname": "clab-VLAN-R3",
+        "clab-node-name": "R3",
+        "clab-node-type": "",
+        "clab-owner": "cristian",
+        "clab-topo-file": "/home/cristian/lab-examples/VLAN/lab.yml",
+        "containerlab": "VLAN"
+      },
+      "port-bindings": [
+      ]
+    },
+    "R4": {
+      "index": "3",
+      "shortname": "R4",
+      "longname": "clab-VLAN-R4",
+      "fqdn": "R4.VLAN.io",
+      "group": "",
+      "labdir": "/home/cristian/lab-examples/VLAN/clab-VLAN/R4",
+      "kind": "cisco_iol",
+      "image": "vrnetlab/cisco_iol:1.0.0",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.10",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::a",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-6a7a8f292075",
+        "clab-node-group": "",
+        "clab-node-kind": "cisco_iol",
+        "clab-node-lab-dir": "/home/cristian/lab-examples/VLAN/clab-VLAN/R4",
+        "clab-node-longname": "clab-VLAN-R4",
+        "clab-node-name": "R4",
+        "clab-node-type": "",
+        "clab-owner": "cristian",
+        "clab-topo-file": "/home/cristian/lab-examples/VLAN/lab.yml",
+        "containerlab": "VLAN"
+      },
+      "port-bindings": [
+      ]
+    },
+    "R5": {
+      "index": "4",
+      "shortname": "R5",
+      "longname": "clab-VLAN-R5",
+      "fqdn": "R5.VLAN.io",
+      "group": "",
+      "labdir": "/home/cristian/lab-examples/VLAN/clab-VLAN/R5",
+      "kind": "cisco_iol",
+      "image": "vrnetlab/cisco_iol:1.0.0",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.11",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::b",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-6a7a8f292075",
+        "clab-node-group": "",
+        "clab-node-kind": "cisco_iol",
+        "clab-node-lab-dir": "/home/cristian/lab-examples/VLAN/clab-VLAN/R5",
+        "clab-node-longname": "clab-VLAN-R5",
+        "clab-node-name": "R5",
+        "clab-node-type": "",
+        "clab-owner": "cristian",
+        "clab-topo-file": "/home/cristian/lab-examples/VLAN/lab.yml",
+        "containerlab": "VLAN"
+      },
+      "port-bindings": [
+      ]
+    },
+    "SW": {
+      "index": "5",
+      "shortname": "SW",
+      "longname": "clab-VLAN-SW",
+      "fqdn": "SW.VLAN.io",
+      "group": "",
+      "labdir": "/home/cristian/lab-examples/VLAN/clab-VLAN/SW",
+      "kind": "cisco_iol",
+      "image": "vrnetlab/cisco_iol:L2-1.0.0",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.6",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::6",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-6a7a8f292075",
+        "clab-node-group": "",
+        "clab-node-kind": "cisco_iol",
+        "clab-node-lab-dir": "/home/cristian/lab-examples/VLAN/clab-VLAN/SW",
+        "clab-node-longname": "clab-VLAN-SW",
+        "clab-node-name": "SW",
+        "clab-node-type": "L2",
+        "clab-owner": "cristian",
+        "clab-topo-file": "/home/cristian/lab-examples/VLAN/lab.yml",
+        "containerlab": "VLAN"
+      },
+      "port-bindings": [
+      ]
+    },
+    "SW2": {
+      "index": "6",
+      "shortname": "SW2",
+      "longname": "clab-VLAN-SW2",
+      "fqdn": "SW2.VLAN.io",
+      "group": "",
+      "labdir": "/home/cristian/lab-examples/VLAN/clab-VLAN/SW2",
+      "kind": "cisco_iol",
+      "image": "vrnetlab/cisco_iol:L2-1.0.0",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.4",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::4",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-6a7a8f292075",
+        "clab-node-group": "",
+        "clab-node-kind": "cisco_iol",
+        "clab-node-lab-dir": "/home/cristian/lab-examples/VLAN/clab-VLAN/SW2",
+        "clab-node-longname": "clab-VLAN-SW2",
+        "clab-node-name": "SW2",
+        "clab-node-type": "L2",
+        "clab-owner": "cristian",
+        "clab-topo-file": "/home/cristian/lab-examples/VLAN/lab.yml",
+        "containerlab": "VLAN"
+      },
+      "port-bindings": [
+      ]
+    },
+    "SW3": {
+      "index": "7",
+      "shortname": "SW3",
+      "longname": "clab-VLAN-SW3",
+      "fqdn": "SW3.VLAN.io",
+      "group": "",
+      "labdir": "/home/cristian/lab-examples/VLAN/clab-VLAN/SW3",
+      "kind": "cisco_iol",
+      "image": "vrnetlab/cisco_iol:L2-1.0.0",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.7",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::7",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-6a7a8f292075",
+        "clab-node-group": "",
+        "clab-node-kind": "cisco_iol",
+        "clab-node-lab-dir": "/home/cristian/lab-examples/VLAN/clab-VLAN/SW3",
+        "clab-node-longname": "clab-VLAN-SW3",
+        "clab-node-name": "SW3",
+        "clab-node-type": "L2",
+        "clab-owner": "cristian",
+        "clab-topo-file": "/home/cristian/lab-examples/VLAN/lab.yml",
+        "containerlab": "VLAN"
+      },
+      "port-bindings": [
+      ]
+    }
+  },
+  "links": [
+    {
+      "a": {
+        "node": "R1",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:9f:27:b9",
+        "peer": "z"
+      },
+      "z": {
+        "node": "SW",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:1b:69:93",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R2",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:43:a4:36",
+        "peer": "z"
+      },
+      "z": {
+        "node": "SW",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:31:e0:43",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R3",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:d7:74:1d",
+        "peer": "z"
+      },
+      "z": {
+        "node": "SW",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:8a:58:69",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R4",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:89:fb:66",
+        "peer": "z"
+      },
+      "z": {
+        "node": "SW2",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:56:50:db",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "R5",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:88:f1:c6",
+        "peer": "z"
+      },
+      "z": {
+        "node": "SW2",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:a8:fa:b1",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "SW2",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:89:b9:86",
+        "peer": "z"
+      },
+      "z": {
+        "node": "SW3",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:5f:57:a7",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "SW",
+        "interface": "eth5",
+        "mac": "aa:c1:ab:ce:ec:8f",
+        "peer": "z"
+      },
+      "z": {
+        "node": "SW3",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:70:72:66",
+        "peer": "a"
+      }
+    }
+  ]
+}

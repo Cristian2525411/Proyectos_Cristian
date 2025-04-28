@@ -1,0 +1,46 @@
+name: VLAN
+topology:
+  nodes:
+    R1:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:1.0.0
+      startup-config: r1.partial.cfg
+    R2:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:1.0.0
+      startup-config: r2.partial.cfg
+    R3:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:1.0.0
+      startup-config: r3.partial.cfg
+    SW:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:L2-1.0.0
+      startup-config: sw.partial.cfg
+      type: L2
+    R4:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:1.0.0
+      startup-config: r4.partial.cfg
+    R5:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:1.0.0
+      startup-config: r5.partial.cfg
+    SW2:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:L2-1.0.0
+      startup-config: sw2.partial.cfg
+      type: L2
+    SW3:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:L2-1.0.0
+      startup-config: sw3.partial.cfg
+      type: L2
+  links:
+    - endpoints: ["R1:Ethernet0/1","SW:e0/1"]
+    - endpoints: ["R2:Ethernet0/1","SW:e0/2"]
+    - endpoints: ["R3:Ethernet0/1","SW:e0/3"]
+    - endpoints: ["R4:Ethernet0/1","SW2:e0/1"]
+    - endpoints: ["R5:Ethernet0/1","SW2:e0/2"]
+    - endpoints: ["SW2:Ethernet0/3","SW3:e0/2"]
+    - endpoints: ["SW:Ethernet1/1","SW3:e0/1"]

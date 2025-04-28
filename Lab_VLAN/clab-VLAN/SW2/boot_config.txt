@@ -1,0 +1,71 @@
+hostname SW2
+!
+no aaa new-model
+!
+ip domain name lab
+!
+ip cef
+!
+ipv6 unicast-routing
+!
+no ip domain lookup
+!
+username admin privilege 15 secret admin
+!
+vrf definition clab-mgmt
+ description clab-mgmt
+ address-family ipv4
+ !
+ address-family ipv6
+ !
+!
+interface Ethernet0/0
+
+ no switchport
+
+ vrf forwarding clab-mgmt
+ description clab-mgmt
+ ip address 172.20.20.4 255.255.255.0
+ ipv6 address 3fff:172:20:20::4/64
+ no shutdown
+!
+interface Ethernet0/1
+ no shutdown
+!
+interface Ethernet0/2
+ no shutdown
+!
+interface Ethernet0/3
+ no shutdown
+!
+ip forward-protocol nd
+!
+ip route vrf clab-mgmt 0.0.0.0 0.0.0.0 Ethernet0/0 172.20.20.1
+ipv6 route vrf clab-mgmt ::/0 Ethernet0/0 3fff:172:20:20::1
+!
+ip ssh version 2
+crypto key generate rsa modulus 2048
+!
+line vty 0 4
+ login local
+ transport input ssh
+!
+! Configuración de Ethernet 0/3 como enlace trunk para conectarse al switch anterior
+interface FastEthernet0/3
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
+
+! Configuración de Ethernet 0/1 para la VLAN 10
+interface FastEthernet0/1
+ switchport mode access
+ switchport access vlan 10
+
+! Configuración de Ethernet 0/2 para la VLAN 20
+interface FastEthernet0/2
+ switchport mode access
+ switchport access vlan 20
+
+! Fin de configuración
+end
+
+end
